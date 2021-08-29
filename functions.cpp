@@ -17,6 +17,7 @@
 	CMatchmakingStatus::OnEvent() = "55 8B EC 83 E4 F8 81 EC ? ? ? ? 53 8B 5D 08 56 57 8B F9 85";
 	CMergedMDL_Constructor() = "53 8B D9 56 57 8D 4B 04 C7 03 ? ? ? ? E8 ? ? ? ? 6A";
 	CModelRenderSystem::DrawBrushModels() = "55 8B EC 83 E4 F8 83 EC 24 53 56 57 8B 7D 0C 8B D9"; 
+	CNetChan::SendDatagram() = "55 8B EC 83 E4 F0 B8 ? ? ? ? E8 ? ? ? ? 56 57 8B F9 89 7C 24 18";
 	CPanel2D::SetDialogVariable() = "55 8B EC 83 E4 C0 81 EC ? ? ? ? 53 56 8B D9 57 89 5C 24";
 	C_BaseAnimating::DrawModel() = "55 8B EC 83 EC 14 53 56 8B F1 8B 0D ? ? ? ? 57 89"; 
 	C_BaseAnimating::FrameAdvance() = "55 8B EC 83 E4 C0 83 EC 38 56 8B"; 
